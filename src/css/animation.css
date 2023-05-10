@@ -1,0 +1,32 @@
+/* CLASS */
+.exit-from_top{
+    animation: exit_top .3s ease 0s 1 normal forwards;
+}
+.in-from_bottom{
+    animation: in_bottom .3s ease 0s 1 normal forwards;
+}
+
+
+/* KEY FRAMES */
+@keyframes exit_top {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+}
+@keyframes in_bottom {
+	0% {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
